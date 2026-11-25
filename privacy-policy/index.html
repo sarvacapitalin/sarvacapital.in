@@ -6,7 +6,19 @@
   <title>Privacy Policy — Sarva Capital</title>
   <meta name="description" content="Privacy Policy and Google AdSense cookie disclosure for sarvacapital.in and its subdomains.">
   <link rel="canonical" href="https://sarvacapital.in/privacy-policy/">
-  <link rel="stylesheet" href="/styles.css">
+  <script>
+    (function () {
+      try {
+        var pref = localStorage.getItem("SARVA_THEME") || "system";
+        var dark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+        var resolved = pref === "system" ? (dark ? "dark" : "light") : pref;
+        document.documentElement.dataset.theme = resolved;
+        document.documentElement.dataset.themePreference = pref;
+        document.documentElement.style.colorScheme = resolved;
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="/styles.css?v=2">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6573213692692289" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -22,6 +34,10 @@
         <a href="/about/">About</a>
         <a href="/privacy-policy/" aria-current="page">Privacy Policy</a>
         <a href="/#contact">Contact</a>
+        <button type="button" class="theme-toggle-btn" id="btn-theme-toggle" title="Theme: Auto (matches system). Click to switch to Light" aria-label="Toggle theme">
+          <span class="theme-icon" aria-hidden="true">◐</span>
+          <span class="theme-label">Auto</span>
+        </button>
       </nav>
     </div>
   </header>
@@ -112,5 +128,6 @@
       </div>
     </div>
   </footer>
+  <script src="/theme.js?v=2" defer></script>
 </body>
 </html>
