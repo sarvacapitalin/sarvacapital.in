@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://sarvacapital.in/</loc>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main website pages -->
+  <sitemap>
+    <loc>https://sarvacapital.in/sitemap-main.xml</loc>
     <lastmod>2026-11-25</lastmod>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://sarvacapital.in/about/</loc>
+  </sitemap>
+  <!-- Telangana RTA LLR Practice subdomain -->
+  <sitemap>
+    <loc>https://llr.sarvacapital.in/sitemap.xml</loc>
     <lastmod>2026-11-25</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://sarvacapital.in/privacy-policy/</loc>
+  </sitemap>
+  <!-- Uncomment once sarvatv.sarvacapital.in publishes /sitemap.xml
+  <sitemap>
+    <loc>https://sarvatv.sarvacapital.in/sitemap.xml</loc>
     <lastmod>2026-11-25</lastmod>
-    <priority>0.6</priority>
-  </url>
-</urlset>
+  </sitemap>
+  -->
+</sitemapindex>

@@ -1,0 +1,31 @@
+# Sarva Capital
+
+> Official directory of Sarva Capital web properties, educational utilities, and public resources.
+
+Website: https://sarvacapital.in/
+Contact: contact@sarvacapital.in
+
+## Main Site Pages
+
+- [Home](https://sarvacapital.in/): Overview of Sarva Capital and its active digital platforms.
+- [About](https://sarvacapital.in/about/): Mission, products, and editorial standards.
+- [Privacy Policy](https://sarvacapital.in/privacy-policy/): Privacy practices and Google AdSense cookie disclosures.
+
+## Subdomains & Public Platforms
+
+### Telangana RTA LLR Practice
+- [Telangana RTA LLR Practice (STALL Simulator)](https://llr.sarvacapital.in/): Free trilingual (English, Telugu, Hindi) 412-question Telangana Learner's Licence simulator, road signs, RTO guide, DL track guide, and traffic fines.
+- [LLR LLM Summary (llms.txt)](https://llr.sarvacapital.in/llms.txt)
+- [LLR Complete Knowledge Base (llms-full.txt)](https://llr.sarvacapital.in/llms-full.txt)
+- [All 94 Telangana Road Signs](https://llr.sarvacapital.in/road-signs/)
+- [412 Official LLR Questions & Answers](https://llr.sarvacapital.in/question-bank/)
+- [Hyderabad & Telangana RTO Guide](https://llr.sarvacapital.in/rto-guide/)
+- [Permanent DL 8-Track & H-Track Guide](https://llr.sarvacapital.in/dl-test-guide/)
+- [Telangana Traffic Fines & Hand Signals](https://llr.sarvacapital.in/traffic-fines/)
+- [All 38 Telangana District RTO Codes](https://llr.sarvacapital.in/telangana-rto-codes/)
+- [Last-Minute LLR Cheatsheet](https://llr.sarvacapital.in/cheatsheet/)
+- [Telugu Overview](https://llr.sarvacapital.in/te/)
+- [Hindi Overview](https://llr.sarvacapital.in/hi/)
+
+### Sarva TV
+- [Sarva TV](https://sarvatv.sarvacapital.in/): Streamlined web companion for discovering and watching curated live channels and digital streams.
